@@ -1,0 +1,405 @@
+TPDFGenerator
+v6
+r1
+cCheck dependencies
+cProcessPCH /var/folders/cv/ttm51rsn4b18qg7jrcdq_nf80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/ComAlbertomdfPdfgenerator_Prefix-cxemvaikfpraixfnvfoapxymyyxr/ComAlbertomdfPdfgenerator_Prefix.pch.pch ComAlbertomdfPdfgenerator_Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH /var/folders/cv/ttm51rsn4b18qg7jrcdq_nf80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/ComAlbertomdfPdfgenerator_Prefix-aphvbaqfnoeuweeyhwpzzqxkgusx/ComAlbertomdfPdfgenerator_Prefix.pch.pch ComAlbertomdfPdfgenerator_Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH /var/folders/cv/ttm51rsn4b18qg7jrcdq_nf80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/ComAlbertomdfPdfgenerator_Prefix-dbvanniyvcygixdtucebectywkhb/ComAlbertomdfPdfgenerator_Prefix.pch.pch ComAlbertomdfPdfgenerator_Prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/PDFGenerator.build/Release-iphoneos/PDFGenerator.build/Objects-normal/armv7/ComAlbertomdfPdfgeneratorModule.o /Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/Classes/ComAlbertomdfPdfgeneratorModule.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/PDFGenerator.build/Release-iphoneos/PDFGenerator.build/Objects-normal/armv7/ComAlbertomdfPdfgeneratorModuleAssets.o /Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/Classes/ComAlbertomdfPdfgeneratorModuleAssets.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/PDFGenerator.build/Release-iphoneos/PDFGenerator.build/Objects-normal/armv7s/ComAlbertomdfPdfgeneratorModule.o /Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/Classes/ComAlbertomdfPdfgeneratorModule.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/PDFGenerator.build/Release-iphoneos/PDFGenerator.build/Objects-normal/armv7s/ComAlbertomdfPdfgeneratorModuleAssets.o /Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/Classes/ComAlbertomdfPdfgeneratorModuleAssets.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/PDFGenerator.build/Release-iphoneos/PDFGenerator.build/Objects-normal/arm64/ComAlbertomdfPdfgeneratorModule.o /Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/Classes/ComAlbertomdfPdfgeneratorModule.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/PDFGenerator.build/Release-iphoneos/PDFGenerator.build/Objects-normal/arm64/ComAlbertomdfPdfgeneratorModuleAssets.o /Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/Classes/ComAlbertomdfPdfgeneratorModuleAssets.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLibtool /Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/build/PDFGenerator.build/Release-iphoneos/PDFGenerator.build/Objects-normal/armv7/libComAlbertomdfPdfgenerator.a normal armv7
+cLibtool /Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/build/PDFGenerator.build/Release-iphoneos/PDFGenerator.build/Objects-normal/armv7s/libComAlbertomdfPdfgenerator.a normal armv7s
+cLibtool /Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/build/PDFGenerator.build/Release-iphoneos/PDFGenerator.build/Objects-normal/arm64/libComAlbertomdfPdfgenerator.a normal arm64
+cCreateUniversalBinary /Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/build/Release-iphoneos/libComAlbertomdfPdfgenerator.a normal armv7\ armv7s\ arm64
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk
+c0000000053119F860000000000000132
+t1393663878
+s306
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/SDKSettings.plist
+c000000005348FDC3000000000000036B
+t1397292483
+s875
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/CoreServices/SystemVersion.plist
+c000000005348FDC3000000000000019E
+t1397292483
+s414
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000005348FDC50000000000A90C10
+t1397292485
+s11078672
+
+N/Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/Classes/ComAlbertomdfPdfgeneratorModule.m
+c000000005449540A00000000000014AD
+t1414091786
+s5293
+
+N/Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/Classes/ComAlbertomdfPdfgeneratorModuleAssets.m
+c0000000054495056000000000000026E
+t1414090838
+s622
+
+N/Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/ComAlbertomdfPdfgenerator_Prefix.pch
+c0000000054495056000000000000003E
+t1414090838
+s62
+
+N/Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/build/PDFGenerator.build/Release-iphoneos/PDFGenerator.build/Objects-normal/arm64/ComAlbertomdfPdfgenerator.LinkFileList
+c0000000054495435000000000000016A
+t1414091829
+s362
+
+N/Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/build/PDFGenerator.build/Release-iphoneos/PDFGenerator.build/Objects-normal/arm64/ComAlbertomdfPdfgeneratorModule.o
+t1414091830
+s24244
+
+N/Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/build/PDFGenerator.build/Release-iphoneos/PDFGenerator.build/Objects-normal/arm64/ComAlbertomdfPdfgeneratorModuleAssets.o
+t1414091830
+s5936
+
+N/Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/build/PDFGenerator.build/Release-iphoneos/PDFGenerator.build/Objects-normal/arm64/libComAlbertomdfPdfgenerator.a
+t1414091830
+s30728
+
+N/Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/build/PDFGenerator.build/Release-iphoneos/PDFGenerator.build/Objects-normal/armv7/ComAlbertomdfPdfgenerator.LinkFileList
+c0000000054495435000000000000016A
+t1414091829
+s362
+
+N/Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/build/PDFGenerator.build/Release-iphoneos/PDFGenerator.build/Objects-normal/armv7/ComAlbertomdfPdfgeneratorModule.o
+t1414091830
+s21600
+
+N/Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/build/PDFGenerator.build/Release-iphoneos/PDFGenerator.build/Objects-normal/armv7/ComAlbertomdfPdfgeneratorModuleAssets.o
+t1414091830
+s5392
+
+N/Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/build/PDFGenerator.build/Release-iphoneos/PDFGenerator.build/Objects-normal/armv7/libComAlbertomdfPdfgenerator.a
+t1414091830
+s27536
+
+N/Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/build/PDFGenerator.build/Release-iphoneos/PDFGenerator.build/Objects-normal/armv7s/ComAlbertomdfPdfgenerator.LinkFileList
+c0000000054495435000000000000016C
+t1414091829
+s364
+
+N/Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/build/PDFGenerator.build/Release-iphoneos/PDFGenerator.build/Objects-normal/armv7s/ComAlbertomdfPdfgeneratorModule.o
+t1414091830
+s21588
+
+N/Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/build/PDFGenerator.build/Release-iphoneos/PDFGenerator.build/Objects-normal/armv7s/ComAlbertomdfPdfgeneratorModuleAssets.o
+t1414091830
+s5392
+
+N/Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/build/PDFGenerator.build/Release-iphoneos/PDFGenerator.build/Objects-normal/armv7s/libComAlbertomdfPdfgenerator.a
+t1414091830
+s27528
+
+N/Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/build/Release-iphoneos/libComAlbertomdfPdfgenerator.a
+t2
+s0
+
+N/var/folders/cv/ttm51rsn4b18qg7jrcdq_nf80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/ComAlbertomdfPdfgenerator_Prefix-aphvbaqfnoeuweeyhwpzzqxkgusx/ComAlbertomdfPdfgenerator_Prefix.pch.pch
+t1414091829
+s3173524
+
+N/var/folders/cv/ttm51rsn4b18qg7jrcdq_nf80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/ComAlbertomdfPdfgenerator_Prefix-cxemvaikfpraixfnvfoapxymyyxr/ComAlbertomdfPdfgenerator_Prefix.pch.pch
+t1414091829
+s3173360
+
+N/var/folders/cv/ttm51rsn4b18qg7jrcdq_nf80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/ComAlbertomdfPdfgenerator_Prefix-dbvanniyvcygixdtucebectywkhb/ComAlbertomdfPdfgenerator_Prefix.pch.pch
+t1414091829
+s3190828
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies0ddf0ab58bf9b941^c47a3bb58bf9b941^---0#1#1#--18"Check dependencies36"62D651DC-F32E-4C7B-AE6C-5DC94DE225E8-
+
+CCompileC build/PDFGenerator.build/Release-iphoneos/PDFGenerator.build/Objects-normal/arm64/ComAlbertomdfPdfgeneratorModule.o /Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/Classes/ComAlbertomdfPdfgeneratorModule.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s435784629.710276
+e435784630.081247
+r1
+xCompileC
+xbuild/PDFGenerator.build/Release-iphoneos/PDFGenerator.build/Objects-normal/arm64/ComAlbertomdfPdfgeneratorModule.o
+x/Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/Classes/ComAlbertomdfPdfgeneratorModule.m
+xnormal
+xarm64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/Classes/ComAlbertomdfPdfgeneratorModule.m
+d/Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/Classes/ComAlbertomdfPdfgeneratorModule.h
+d/Users/AlbertoMDF/Library/Application Support/Titanium/mobilesdk/osx/3.3.0.GA/iphone/include/TiModule.h
+d/Users/AlbertoMDF/Library/Application Support/Titanium/mobilesdk/osx/3.3.0.GA/iphone/include/TiProxy.h
+d/Users/AlbertoMDF/Library/Application Support/Titanium/mobilesdk/osx/3.3.0.GA/iphone/include/TiBase.h
+d/Users/AlbertoMDF/Library/Application Support/Titanium/mobilesdk/osx/3.3.0.GA/iphone/include/defines.h
+d/Users/AlbertoMDF/Library/Application Support/Titanium/mobilesdk/osx/3.3.0.GA/iphone/include/TiThreading.h
+d/Users/AlbertoMDF/Library/Application Support/Titanium/mobilesdk/osx/3.3.0.GA/iphone/include/TiPublicAPI.h
+d/Users/AlbertoMDF/Library/Application Support/Titanium/mobilesdk/osx/3.3.0.GA/iphone/include/TiEvaluator.h
+d/Users/AlbertoMDF/Library/Application Support/Titanium/mobilesdk/osx/3.3.0.GA/iphone/include/KrollContext.h
+d/Users/AlbertoMDF/Library/Application Support/Titanium/mobilesdk/osx/3.3.0.GA/iphone/include/TiCore/TiCore.h
+d/Users/AlbertoMDF/Library/Application Support/Titanium/mobilesdk/osx/3.3.0.GA/iphone/include/TiCore/Ti.h
+d/Users/AlbertoMDF/Library/Application Support/Titanium/mobilesdk/osx/3.3.0.GA/iphone/include/TiCore/TiBase.h
+d/Users/AlbertoMDF/Library/Application Support/Titanium/mobilesdk/osx/3.3.0.GA/iphone/include/TiCore/TiContextRef.h
+d/Users/AlbertoMDF/Library/Application Support/Titanium/mobilesdk/osx/3.3.0.GA/iphone/include/TiCore/TiObjectRef.h
+d/Users/AlbertoMDF/Library/Application Support/Titanium/mobilesdk/osx/3.3.0.GA/iphone/include/TiCore/TiValueRef.h
+d/Users/AlbertoMDF/Library/Application Support/Titanium/mobilesdk/osx/3.3.0.GA/iphone/include/TiCore/WebKitAvailability.h
+d/Users/AlbertoMDF/Library/Application Support/Titanium/mobilesdk/osx/3.3.0.GA/iphone/include/TiCore/TiStringRef.h
+d/Users/AlbertoMDF/Library/Application Support/Titanium/mobilesdk/osx/3.3.0.GA/iphone/include/TiCore/TiStringRefCF.h
+d/Users/AlbertoMDF/Library/Application Support/Titanium/mobilesdk/osx/3.3.0.GA/iphone/include/TiCore/TiContextRefPrivate.h
+d/Users/AlbertoMDF/Library/Application Support/Titanium/mobilesdk/osx/3.3.0.GA/iphone/include/KrollCallback.h
+d/Users/AlbertoMDF/Library/Application Support/Titanium/mobilesdk/osx/3.3.0.GA/iphone/include/KrollObject.h
+d/Users/AlbertoMDF/Library/Application Support/Titanium/mobilesdk/osx/3.3.0.GA/iphone/include/TiBindingRunLoop.h
+d/Users/AlbertoMDF/Library/Application Support/Titanium/mobilesdk/osx/3.3.0.GA/iphone/include/TiUtils.h
+d/Users/AlbertoMDF/Library/Application Support/Titanium/mobilesdk/osx/3.3.0.GA/iphone/include/TiDimension.h
+d/Users/AlbertoMDF/Library/Application Support/Titanium/mobilesdk/osx/3.3.0.GA/iphone/include/TiColor.h
+d/Users/AlbertoMDF/Library/Application Support/Titanium/mobilesdk/osx/3.3.0.GA/iphone/include/WebFont.h
+d/Users/AlbertoMDF/Library/Application Support/Titanium/mobilesdk/osx/3.3.0.GA/iphone/include/TiFile.h
+d/Users/AlbertoMDF/Library/Application Support/Titanium/mobilesdk/osx/3.3.0.GA/iphone/include/TiBuffer.h
+d/Users/AlbertoMDF/Library/Application Support/Titanium/mobilesdk/osx/3.3.0.GA/iphone/include/TiBlob.h
+d/Users/AlbertoMDF/Library/Application Support/Titanium/mobilesdk/osx/3.3.0.GA/iphone/include/TiHost.h
+d/Users/AlbertoMDF/Library/Application Support/Titanium/mobilesdk/osx/3.3.0.GA/iphone/include/Bridge.h
+d/Users/AlbertoMDF/Library/Application Support/Titanium/mobilesdk/osx/3.3.0.GA/iphone/include/TiStylesheet.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection111"Compile /Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/Classes/ComAlbertomdfPdfgeneratorModule.m235"CompileC build/PDFGenerator.build/Release-iphoneos/PDFGenerator.build/Objects-normal/arm64/ComAlbertomdfPdfgeneratorModule.o Classes/ComAlbertomdfPdfgeneratorModule.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler05f9b5b58bf9b941^eacd14b68bf9b941^---0#0#1#-19%DVTDocumentLocation2@110"file:///Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/Classes/ComAlbertomdfPdfgeneratorModule.m0000000000000000^4119"CompileC build/PDFGenerator.build/Release-iphoneos/PDFGenerator.build/Objects-normal/arm64/ComAlbertomdfPdfgeneratorModule.o Classes/ComAlbertomdfPdfgeneratorModule.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/AlbertoMDF/Desktop/dev/Android/adt-bundle-mac/sdk/platform-tools/"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wno-parentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wno-unused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DTI_VERSION= -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=4.0 -iquote /Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/build/PDFGenerator.build/Release-iphoneos/PDFGenerator.build/ComAlbertomdfPdfgenerator-generated-files.hmap -I/Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/build/PDFGenerator.build/Release-iphoneos/PDFGenerator.build/ComAlbertomdfPdfgenerator-own-target-headers.hmap -I/Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/build/PDFGenerator.build/Release-iphoneos/PDFGenerator.build/ComAlbertomdfPdfgenerator-all-target-headers.hmap -iquote /Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/build/PDFGenerator.build/Release-iphoneos/PDFGenerator.build/ComAlbertomdfPdfgenerator-project-headers.hmap -I/Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/build/Release-iphoneos/include -I/Users/AlbertoMDF/Library/Application\ Support/Titanium/mobilesdk/osx/3.3.0.GA/iphone/include -I/Users/AlbertoMDF/Library/Application\ Support/Titanium/mobilesdk/osx/3.3.0.GA/iphone/include/TiCore -I/Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/build/PDFGenerator.build/Release-iphoneos/PDFGenerator.build/DerivedSources/arm64 -I/Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/build/PDFGenerator.build/Release-iphoneos/PDFGenerator.build/DerivedSources -F/Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/build/Release-iphoneos -DTI_POST_1_2 -include /var/folders/cv/ttm51rsn4b18qg7jrcdq_nf80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/ComAlbertomdfPdfgenerator_Prefix-dbvanniyvcygixdtucebectywkhb/ComAlbertomdfPdfgenerator_Prefix.pch -MMD -MT dependencies -MF /Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/build/PDFGenerator.build/Release-iphoneos/PDFGenerator.build/Objects-normal/arm64/ComAlbertomdfPdfgeneratorModule.d --serialize-diagnostics /Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/build/PDFGenerator.build/Release-iphoneos/PDFGenerator.build/Objects-normal/arm64/ComAlbertomdfPdfgeneratorModule.dia -c /Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/Classes/ComAlbertomdfPdfgeneratorModule.m -o /Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/build/PDFGenerator.build/Release-iphoneos/PDFGenerator.build/Objects-normal/arm64/ComAlbertomdfPdfgeneratorModule.o36"C16B96E8-A350-4DDB-946E-788AF441C8DA-
+bBAD9FE42-F309-43A7-8AF9-082AB12D1B4F
+
+CCompileC build/PDFGenerator.build/Release-iphoneos/PDFGenerator.build/Objects-normal/arm64/ComAlbertomdfPdfgeneratorModuleAssets.o /Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/Classes/ComAlbertomdfPdfgeneratorModuleAssets.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s435784629.710496
+e435784630.041636
+r1
+xCompileC
+xbuild/PDFGenerator.build/Release-iphoneos/PDFGenerator.build/Objects-normal/arm64/ComAlbertomdfPdfgeneratorModuleAssets.o
+x/Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/Classes/ComAlbertomdfPdfgeneratorModuleAssets.m
+xnormal
+xarm64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/Classes/ComAlbertomdfPdfgeneratorModuleAssets.m
+d/Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/Classes/ComAlbertomdfPdfgeneratorModuleAssets.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection117"Compile /Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/Classes/ComAlbertomdfPdfgeneratorModuleAssets.m247"CompileC build/PDFGenerator.build/Release-iphoneos/PDFGenerator.build/Objects-normal/arm64/ComAlbertomdfPdfgeneratorModuleAssets.o Classes/ComAlbertomdfPdfgeneratorModuleAssets.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compilerc902b6b58bf9b941^f0a70ab68bf9b941^---0#0#1#-19%DVTDocumentLocation2@116"file:///Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/Classes/ComAlbertomdfPdfgeneratorModuleAssets.m0000000000000000^4155"CompileC build/PDFGenerator.build/Release-iphoneos/PDFGenerator.build/Objects-normal/arm64/ComAlbertomdfPdfgeneratorModuleAssets.o Classes/ComAlbertomdfPdfgeneratorModuleAssets.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/AlbertoMDF/Desktop/dev/Android/adt-bundle-mac/sdk/platform-tools/"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wno-parentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wno-unused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DTI_VERSION= -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=4.0 -iquote /Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/build/PDFGenerator.build/Release-iphoneos/PDFGenerator.build/ComAlbertomdfPdfgenerator-generated-files.hmap -I/Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/build/PDFGenerator.build/Release-iphoneos/PDFGenerator.build/ComAlbertomdfPdfgenerator-own-target-headers.hmap -I/Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/build/PDFGenerator.build/Release-iphoneos/PDFGenerator.build/ComAlbertomdfPdfgenerator-all-target-headers.hmap -iquote /Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/build/PDFGenerator.build/Release-iphoneos/PDFGenerator.build/ComAlbertomdfPdfgenerator-project-headers.hmap -I/Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/build/Release-iphoneos/include -I/Users/AlbertoMDF/Library/Application\ Support/Titanium/mobilesdk/osx/3.3.0.GA/iphone/include -I/Users/AlbertoMDF/Library/Application\ Support/Titanium/mobilesdk/osx/3.3.0.GA/iphone/include/TiCore -I/Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/build/PDFGenerator.build/Release-iphoneos/PDFGenerator.build/DerivedSources/arm64 -I/Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/build/PDFGenerator.build/Release-iphoneos/PDFGenerator.build/DerivedSources -F/Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/build/Release-iphoneos -DTI_POST_1_2 -include /var/folders/cv/ttm51rsn4b18qg7jrcdq_nf80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/ComAlbertomdfPdfgenerator_Prefix-dbvanniyvcygixdtucebectywkhb/ComAlbertomdfPdfgenerator_Prefix.pch -MMD -MT dependencies -MF /Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/build/PDFGenerator.build/Release-iphoneos/PDFGenerator.build/Objects-normal/arm64/ComAlbertomdfPdfgeneratorModuleAssets.d --serialize-diagnostics /Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/build/PDFGenerator.build/Release-iphoneos/PDFGenerator.build/Objects-normal/arm64/ComAlbertomdfPdfgeneratorModuleAssets.dia -c /Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/Classes/ComAlbertomdfPdfgeneratorModuleAssets.m -o /Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/build/PDFGenerator.build/Release-iphoneos/PDFGenerator.build/Objects-normal/arm64/ComAlbertomdfPdfgeneratorModuleAssets.o36"05A6D627-C530-48F7-AEBA-AD960B92CFB5-
+bBAD9FE42-F309-43A7-8AF9-082AB12D1B4F
+
+CCompileC build/PDFGenerator.build/Release-iphoneos/PDFGenerator.build/Objects-normal/armv7/ComAlbertomdfPdfgeneratorModule.o /Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/Classes/ComAlbertomdfPdfgeneratorModule.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s435784629.708979
+e435784630.083964
+r1
+xCompileC
+xbuild/PDFGenerator.build/Release-iphoneos/PDFGenerator.build/Objects-normal/armv7/ComAlbertomdfPdfgeneratorModule.o
+x/Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/Classes/ComAlbertomdfPdfgeneratorModule.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/Classes/ComAlbertomdfPdfgeneratorModule.m
+d/Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/Classes/ComAlbertomdfPdfgeneratorModule.h
+d/Users/AlbertoMDF/Library/Application Support/Titanium/mobilesdk/osx/3.3.0.GA/iphone/include/TiModule.h
+d/Users/AlbertoMDF/Library/Application Support/Titanium/mobilesdk/osx/3.3.0.GA/iphone/include/TiProxy.h
+d/Users/AlbertoMDF/Library/Application Support/Titanium/mobilesdk/osx/3.3.0.GA/iphone/include/TiBase.h
+d/Users/AlbertoMDF/Library/Application Support/Titanium/mobilesdk/osx/3.3.0.GA/iphone/include/defines.h
+d/Users/AlbertoMDF/Library/Application Support/Titanium/mobilesdk/osx/3.3.0.GA/iphone/include/TiThreading.h
+d/Users/AlbertoMDF/Library/Application Support/Titanium/mobilesdk/osx/3.3.0.GA/iphone/include/TiPublicAPI.h
+d/Users/AlbertoMDF/Library/Application Support/Titanium/mobilesdk/osx/3.3.0.GA/iphone/include/TiEvaluator.h
+d/Users/AlbertoMDF/Library/Application Support/Titanium/mobilesdk/osx/3.3.0.GA/iphone/include/KrollContext.h
+d/Users/AlbertoMDF/Library/Application Support/Titanium/mobilesdk/osx/3.3.0.GA/iphone/include/TiCore/TiCore.h
+d/Users/AlbertoMDF/Library/Application Support/Titanium/mobilesdk/osx/3.3.0.GA/iphone/include/TiCore/Ti.h
+d/Users/AlbertoMDF/Library/Application Support/Titanium/mobilesdk/osx/3.3.0.GA/iphone/include/TiCore/TiBase.h
+d/Users/AlbertoMDF/Library/Application Support/Titanium/mobilesdk/osx/3.3.0.GA/iphone/include/TiCore/TiContextRef.h
+d/Users/AlbertoMDF/Library/Application Support/Titanium/mobilesdk/osx/3.3.0.GA/iphone/include/TiCore/TiObjectRef.h
+d/Users/AlbertoMDF/Library/Application Support/Titanium/mobilesdk/osx/3.3.0.GA/iphone/include/TiCore/TiValueRef.h
+d/Users/AlbertoMDF/Library/Application Support/Titanium/mobilesdk/osx/3.3.0.GA/iphone/include/TiCore/WebKitAvailability.h
+d/Users/AlbertoMDF/Library/Application Support/Titanium/mobilesdk/osx/3.3.0.GA/iphone/include/TiCore/TiStringRef.h
+d/Users/AlbertoMDF/Library/Application Support/Titanium/mobilesdk/osx/3.3.0.GA/iphone/include/TiCore/TiStringRefCF.h
+d/Users/AlbertoMDF/Library/Application Support/Titanium/mobilesdk/osx/3.3.0.GA/iphone/include/TiCore/TiContextRefPrivate.h
+d/Users/AlbertoMDF/Library/Application Support/Titanium/mobilesdk/osx/3.3.0.GA/iphone/include/KrollCallback.h
+d/Users/AlbertoMDF/Library/Application Support/Titanium/mobilesdk/osx/3.3.0.GA/iphone/include/KrollObject.h
+d/Users/AlbertoMDF/Library/Application Support/Titanium/mobilesdk/osx/3.3.0.GA/iphone/include/TiBindingRunLoop.h
+d/Users/AlbertoMDF/Library/Application Support/Titanium/mobilesdk/osx/3.3.0.GA/iphone/include/TiUtils.h
+d/Users/AlbertoMDF/Library/Application Support/Titanium/mobilesdk/osx/3.3.0.GA/iphone/include/TiDimension.h
+d/Users/AlbertoMDF/Library/Application Support/Titanium/mobilesdk/osx/3.3.0.GA/iphone/include/TiColor.h
+d/Users/AlbertoMDF/Library/Application Support/Titanium/mobilesdk/osx/3.3.0.GA/iphone/include/WebFont.h
+d/Users/AlbertoMDF/Library/Application Support/Titanium/mobilesdk/osx/3.3.0.GA/iphone/include/TiFile.h
+d/Users/AlbertoMDF/Library/Application Support/Titanium/mobilesdk/osx/3.3.0.GA/iphone/include/TiBuffer.h
+d/Users/AlbertoMDF/Library/Application Support/Titanium/mobilesdk/osx/3.3.0.GA/iphone/include/TiBlob.h
+d/Users/AlbertoMDF/Library/Application Support/Titanium/mobilesdk/osx/3.3.0.GA/iphone/include/TiHost.h
+d/Users/AlbertoMDF/Library/Application Support/Titanium/mobilesdk/osx/3.3.0.GA/iphone/include/Bridge.h
+d/Users/AlbertoMDF/Library/Application Support/Titanium/mobilesdk/osx/3.3.0.GA/iphone/include/TiStylesheet.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection111"Compile /Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/Classes/ComAlbertomdfPdfgeneratorModule.m235"CompileC build/PDFGenerator.build/Release-iphoneos/PDFGenerator.build/Objects-normal/armv7/ComAlbertomdfPdfgeneratorModule.o Classes/ComAlbertomdfPdfgeneratorModule.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler0798b5b58bf9b941^e97f15b68bf9b941^---0#0#1#-19%DVTDocumentLocation2@110"file:///Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/Classes/ComAlbertomdfPdfgeneratorModule.m0000000000000000^4122"CompileC build/PDFGenerator.build/Release-iphoneos/PDFGenerator.build/Objects-normal/armv7/ComAlbertomdfPdfgeneratorModule.o Classes/ComAlbertomdfPdfgeneratorModule.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/AlbertoMDF/Desktop/dev/Android/adt-bundle-mac/sdk/platform-tools/"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wno-parentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wno-unused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DTI_VERSION= -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=4.0 -iquote /Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/build/PDFGenerator.build/Release-iphoneos/PDFGenerator.build/ComAlbertomdfPdfgenerator-generated-files.hmap -I/Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/build/PDFGenerator.build/Release-iphoneos/PDFGenerator.build/ComAlbertomdfPdfgenerator-own-target-headers.hmap -I/Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/build/PDFGenerator.build/Release-iphoneos/PDFGenerator.build/ComAlbertomdfPdfgenerator-all-target-headers.hmap -iquote /Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/build/PDFGenerator.build/Release-iphoneos/PDFGenerator.build/ComAlbertomdfPdfgenerator-project-headers.hmap -I/Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/build/Release-iphoneos/include -I/Users/AlbertoMDF/Library/Application\ Support/Titanium/mobilesdk/osx/3.3.0.GA/iphone/include -I/Users/AlbertoMDF/Library/Application\ Support/Titanium/mobilesdk/osx/3.3.0.GA/iphone/include/TiCore -I/Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/build/PDFGenerator.build/Release-iphoneos/PDFGenerator.build/DerivedSources/armv7 -I/Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/build/PDFGenerator.build/Release-iphoneos/PDFGenerator.build/DerivedSources -F/Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/build/Release-iphoneos -DTI_POST_1_2 -include /var/folders/cv/ttm51rsn4b18qg7jrcdq_nf80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/ComAlbertomdfPdfgenerator_Prefix-cxemvaikfpraixfnvfoapxymyyxr/ComAlbertomdfPdfgenerator_Prefix.pch -MMD -MT dependencies -MF /Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/build/PDFGenerator.build/Release-iphoneos/PDFGenerator.build/Objects-normal/armv7/ComAlbertomdfPdfgeneratorModule.d --serialize-diagnostics /Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/build/PDFGenerator.build/Release-iphoneos/PDFGenerator.build/Objects-normal/armv7/ComAlbertomdfPdfgeneratorModule.dia -c /Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/Classes/ComAlbertomdfPdfgeneratorModule.m -o /Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/build/PDFGenerator.build/Release-iphoneos/PDFGenerator.build/Objects-normal/armv7/ComAlbertomdfPdfgeneratorModule.o36"EE68F143-ACDA-4021-B7C9-398D6704CAF2-
+bBAD9FE42-F309-43A7-8AF9-082AB12D1B4F
+
+CCompileC build/PDFGenerator.build/Release-iphoneos/PDFGenerator.build/Objects-normal/armv7/ComAlbertomdfPdfgeneratorModuleAssets.o /Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/Classes/ComAlbertomdfPdfgeneratorModuleAssets.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s435784629.709212
+e435784630.041410
+r1
+xCompileC
+xbuild/PDFGenerator.build/Release-iphoneos/PDFGenerator.build/Objects-normal/armv7/ComAlbertomdfPdfgeneratorModuleAssets.o
+x/Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/Classes/ComAlbertomdfPdfgeneratorModuleAssets.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/Classes/ComAlbertomdfPdfgeneratorModuleAssets.m
+d/Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/Classes/ComAlbertomdfPdfgeneratorModuleAssets.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection117"Compile /Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/Classes/ComAlbertomdfPdfgeneratorModuleAssets.m247"CompileC build/PDFGenerator.build/Release-iphoneos/PDFGenerator.build/Objects-normal/armv7/ComAlbertomdfPdfgeneratorModuleAssets.o Classes/ComAlbertomdfPdfgeneratorModuleAssets.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler71aab5b58bf9b941^a29a0ab68bf9b941^---0#0#1#-19%DVTDocumentLocation2@116"file:///Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/Classes/ComAlbertomdfPdfgeneratorModuleAssets.m0000000000000000^4158"CompileC build/PDFGenerator.build/Release-iphoneos/PDFGenerator.build/Objects-normal/armv7/ComAlbertomdfPdfgeneratorModuleAssets.o Classes/ComAlbertomdfPdfgeneratorModuleAssets.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/AlbertoMDF/Desktop/dev/Android/adt-bundle-mac/sdk/platform-tools/"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wno-parentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wno-unused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DTI_VERSION= -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=4.0 -iquote /Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/build/PDFGenerator.build/Release-iphoneos/PDFGenerator.build/ComAlbertomdfPdfgenerator-generated-files.hmap -I/Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/build/PDFGenerator.build/Release-iphoneos/PDFGenerator.build/ComAlbertomdfPdfgenerator-own-target-headers.hmap -I/Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/build/PDFGenerator.build/Release-iphoneos/PDFGenerator.build/ComAlbertomdfPdfgenerator-all-target-headers.hmap -iquote /Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/build/PDFGenerator.build/Release-iphoneos/PDFGenerator.build/ComAlbertomdfPdfgenerator-project-headers.hmap -I/Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/build/Release-iphoneos/include -I/Users/AlbertoMDF/Library/Application\ Support/Titanium/mobilesdk/osx/3.3.0.GA/iphone/include -I/Users/AlbertoMDF/Library/Application\ Support/Titanium/mobilesdk/osx/3.3.0.GA/iphone/include/TiCore -I/Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/build/PDFGenerator.build/Release-iphoneos/PDFGenerator.build/DerivedSources/armv7 -I/Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/build/PDFGenerator.build/Release-iphoneos/PDFGenerator.build/DerivedSources -F/Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/build/Release-iphoneos -DTI_POST_1_2 -include /var/folders/cv/ttm51rsn4b18qg7jrcdq_nf80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/ComAlbertomdfPdfgenerator_Prefix-cxemvaikfpraixfnvfoapxymyyxr/ComAlbertomdfPdfgenerator_Prefix.pch -MMD -MT dependencies -MF /Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/build/PDFGenerator.build/Release-iphoneos/PDFGenerator.build/Objects-normal/armv7/ComAlbertomdfPdfgeneratorModuleAssets.d --serialize-diagnostics /Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/build/PDFGenerator.build/Release-iphoneos/PDFGenerator.build/Objects-normal/armv7/ComAlbertomdfPdfgeneratorModuleAssets.dia -c /Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/Classes/ComAlbertomdfPdfgeneratorModuleAssets.m -o /Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/build/PDFGenerator.build/Release-iphoneos/PDFGenerator.build/Objects-normal/armv7/ComAlbertomdfPdfgeneratorModuleAssets.o36"5C43AAEC-9D37-4B3D-97FE-C009F698A7E5-
+bBAD9FE42-F309-43A7-8AF9-082AB12D1B4F
+
+CCompileC build/PDFGenerator.build/Release-iphoneos/PDFGenerator.build/Objects-normal/armv7s/ComAlbertomdfPdfgeneratorModule.o /Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/Classes/ComAlbertomdfPdfgeneratorModule.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s435784629.709526
+e435784630.084287
+r1
+xCompileC
+xbuild/PDFGenerator.build/Release-iphoneos/PDFGenerator.build/Objects-normal/armv7s/ComAlbertomdfPdfgeneratorModule.o
+x/Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/Classes/ComAlbertomdfPdfgeneratorModule.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/Classes/ComAlbertomdfPdfgeneratorModule.m
+d/Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/Classes/ComAlbertomdfPdfgeneratorModule.h
+d/Users/AlbertoMDF/Library/Application Support/Titanium/mobilesdk/osx/3.3.0.GA/iphone/include/TiModule.h
+d/Users/AlbertoMDF/Library/Application Support/Titanium/mobilesdk/osx/3.3.0.GA/iphone/include/TiProxy.h
+d/Users/AlbertoMDF/Library/Application Support/Titanium/mobilesdk/osx/3.3.0.GA/iphone/include/TiBase.h
+d/Users/AlbertoMDF/Library/Application Support/Titanium/mobilesdk/osx/3.3.0.GA/iphone/include/defines.h
+d/Users/AlbertoMDF/Library/Application Support/Titanium/mobilesdk/osx/3.3.0.GA/iphone/include/TiThreading.h
+d/Users/AlbertoMDF/Library/Application Support/Titanium/mobilesdk/osx/3.3.0.GA/iphone/include/TiPublicAPI.h
+d/Users/AlbertoMDF/Library/Application Support/Titanium/mobilesdk/osx/3.3.0.GA/iphone/include/TiEvaluator.h
+d/Users/AlbertoMDF/Library/Application Support/Titanium/mobilesdk/osx/3.3.0.GA/iphone/include/KrollContext.h
+d/Users/AlbertoMDF/Library/Application Support/Titanium/mobilesdk/osx/3.3.0.GA/iphone/include/TiCore/TiCore.h
+d/Users/AlbertoMDF/Library/Application Support/Titanium/mobilesdk/osx/3.3.0.GA/iphone/include/TiCore/Ti.h
+d/Users/AlbertoMDF/Library/Application Support/Titanium/mobilesdk/osx/3.3.0.GA/iphone/include/TiCore/TiBase.h
+d/Users/AlbertoMDF/Library/Application Support/Titanium/mobilesdk/osx/3.3.0.GA/iphone/include/TiCore/TiContextRef.h
+d/Users/AlbertoMDF/Library/Application Support/Titanium/mobilesdk/osx/3.3.0.GA/iphone/include/TiCore/TiObjectRef.h
+d/Users/AlbertoMDF/Library/Application Support/Titanium/mobilesdk/osx/3.3.0.GA/iphone/include/TiCore/TiValueRef.h
+d/Users/AlbertoMDF/Library/Application Support/Titanium/mobilesdk/osx/3.3.0.GA/iphone/include/TiCore/WebKitAvailability.h
+d/Users/AlbertoMDF/Library/Application Support/Titanium/mobilesdk/osx/3.3.0.GA/iphone/include/TiCore/TiStringRef.h
+d/Users/AlbertoMDF/Library/Application Support/Titanium/mobilesdk/osx/3.3.0.GA/iphone/include/TiCore/TiStringRefCF.h
+d/Users/AlbertoMDF/Library/Application Support/Titanium/mobilesdk/osx/3.3.0.GA/iphone/include/TiCore/TiContextRefPrivate.h
+d/Users/AlbertoMDF/Library/Application Support/Titanium/mobilesdk/osx/3.3.0.GA/iphone/include/KrollCallback.h
+d/Users/AlbertoMDF/Library/Application Support/Titanium/mobilesdk/osx/3.3.0.GA/iphone/include/KrollObject.h
+d/Users/AlbertoMDF/Library/Application Support/Titanium/mobilesdk/osx/3.3.0.GA/iphone/include/TiBindingRunLoop.h
+d/Users/AlbertoMDF/Library/Application Support/Titanium/mobilesdk/osx/3.3.0.GA/iphone/include/TiUtils.h
+d/Users/AlbertoMDF/Library/Application Support/Titanium/mobilesdk/osx/3.3.0.GA/iphone/include/TiDimension.h
+d/Users/AlbertoMDF/Library/Application Support/Titanium/mobilesdk/osx/3.3.0.GA/iphone/include/TiColor.h
+d/Users/AlbertoMDF/Library/Application Support/Titanium/mobilesdk/osx/3.3.0.GA/iphone/include/WebFont.h
+d/Users/AlbertoMDF/Library/Application Support/Titanium/mobilesdk/osx/3.3.0.GA/iphone/include/TiFile.h
+d/Users/AlbertoMDF/Library/Application Support/Titanium/mobilesdk/osx/3.3.0.GA/iphone/include/TiBuffer.h
+d/Users/AlbertoMDF/Library/Application Support/Titanium/mobilesdk/osx/3.3.0.GA/iphone/include/TiBlob.h
+d/Users/AlbertoMDF/Library/Application Support/Titanium/mobilesdk/osx/3.3.0.GA/iphone/include/TiHost.h
+d/Users/AlbertoMDF/Library/Application Support/Titanium/mobilesdk/osx/3.3.0.GA/iphone/include/Bridge.h
+d/Users/AlbertoMDF/Library/Application Support/Titanium/mobilesdk/osx/3.3.0.GA/iphone/include/TiStylesheet.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection111"Compile /Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/Classes/ComAlbertomdfPdfgeneratorModule.m237"CompileC build/PDFGenerator.build/Release-iphoneos/PDFGenerator.build/Objects-normal/armv7s/ComAlbertomdfPdfgeneratorModule.o Classes/ComAlbertomdfPdfgeneratorModule.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compilerb4c9b5b58bf9b941^369515b68bf9b941^---0#0#1#-19%DVTDocumentLocation2@110"file:///Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/Classes/ComAlbertomdfPdfgeneratorModule.m0000000000000000^4129"CompileC build/PDFGenerator.build/Release-iphoneos/PDFGenerator.build/Objects-normal/armv7s/ComAlbertomdfPdfgeneratorModule.o Classes/ComAlbertomdfPdfgeneratorModule.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/AlbertoMDF/Desktop/dev/Android/adt-bundle-mac/sdk/platform-tools/"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wno-parentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wno-unused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DTI_VERSION= -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=4.0 -iquote /Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/build/PDFGenerator.build/Release-iphoneos/PDFGenerator.build/ComAlbertomdfPdfgenerator-generated-files.hmap -I/Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/build/PDFGenerator.build/Release-iphoneos/PDFGenerator.build/ComAlbertomdfPdfgenerator-own-target-headers.hmap -I/Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/build/PDFGenerator.build/Release-iphoneos/PDFGenerator.build/ComAlbertomdfPdfgenerator-all-target-headers.hmap -iquote /Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/build/PDFGenerator.build/Release-iphoneos/PDFGenerator.build/ComAlbertomdfPdfgenerator-project-headers.hmap -I/Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/build/Release-iphoneos/include -I/Users/AlbertoMDF/Library/Application\ Support/Titanium/mobilesdk/osx/3.3.0.GA/iphone/include -I/Users/AlbertoMDF/Library/Application\ Support/Titanium/mobilesdk/osx/3.3.0.GA/iphone/include/TiCore -I/Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/build/PDFGenerator.build/Release-iphoneos/PDFGenerator.build/DerivedSources/armv7s -I/Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/build/PDFGenerator.build/Release-iphoneos/PDFGenerator.build/DerivedSources -F/Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/build/Release-iphoneos -DTI_POST_1_2 -include /var/folders/cv/ttm51rsn4b18qg7jrcdq_nf80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/ComAlbertomdfPdfgenerator_Prefix-aphvbaqfnoeuweeyhwpzzqxkgusx/ComAlbertomdfPdfgenerator_Prefix.pch -MMD -MT dependencies -MF /Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/build/PDFGenerator.build/Release-iphoneos/PDFGenerator.build/Objects-normal/armv7s/ComAlbertomdfPdfgeneratorModule.d --serialize-diagnostics /Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/build/PDFGenerator.build/Release-iphoneos/PDFGenerator.build/Objects-normal/armv7s/ComAlbertomdfPdfgeneratorModule.dia -c /Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/Classes/ComAlbertomdfPdfgeneratorModule.m -o /Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/build/PDFGenerator.build/Release-iphoneos/PDFGenerator.build/Objects-normal/armv7s/ComAlbertomdfPdfgeneratorModule.o36"2A2F703A-0FF4-491C-9426-D16F1C7DB8A9-
+bBAD9FE42-F309-43A7-8AF9-082AB12D1B4F
+
+CCompileC build/PDFGenerator.build/Release-iphoneos/PDFGenerator.build/Objects-normal/armv7s/ComAlbertomdfPdfgeneratorModuleAssets.o /Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/Classes/ComAlbertomdfPdfgeneratorModuleAssets.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s435784629.709864
+e435784630.041452
+r1
+xCompileC
+xbuild/PDFGenerator.build/Release-iphoneos/PDFGenerator.build/Objects-normal/armv7s/ComAlbertomdfPdfgeneratorModuleAssets.o
+x/Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/Classes/ComAlbertomdfPdfgeneratorModuleAssets.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/Classes/ComAlbertomdfPdfgeneratorModuleAssets.m
+d/Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/Classes/ComAlbertomdfPdfgeneratorModuleAssets.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection117"Compile /Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/Classes/ComAlbertomdfPdfgeneratorModuleAssets.m249"CompileC build/PDFGenerator.build/Release-iphoneos/PDFGenerator.build/Objects-normal/armv7s/ComAlbertomdfPdfgeneratorModuleAssets.o Classes/ComAlbertomdfPdfgeneratorModuleAssets.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compilerfad4b5b58bf9b941^ae9f0ab68bf9b941^---0#0#1#-19%DVTDocumentLocation2@116"file:///Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/Classes/ComAlbertomdfPdfgeneratorModuleAssets.m0000000000000000^4165"CompileC build/PDFGenerator.build/Release-iphoneos/PDFGenerator.build/Objects-normal/armv7s/ComAlbertomdfPdfgeneratorModuleAssets.o Classes/ComAlbertomdfPdfgeneratorModuleAssets.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/AlbertoMDF/Desktop/dev/Android/adt-bundle-mac/sdk/platform-tools/"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wno-parentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wno-unused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DTI_VERSION= -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=4.0 -iquote /Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/build/PDFGenerator.build/Release-iphoneos/PDFGenerator.build/ComAlbertomdfPdfgenerator-generated-files.hmap -I/Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/build/PDFGenerator.build/Release-iphoneos/PDFGenerator.build/ComAlbertomdfPdfgenerator-own-target-headers.hmap -I/Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/build/PDFGenerator.build/Release-iphoneos/PDFGenerator.build/ComAlbertomdfPdfgenerator-all-target-headers.hmap -iquote /Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/build/PDFGenerator.build/Release-iphoneos/PDFGenerator.build/ComAlbertomdfPdfgenerator-project-headers.hmap -I/Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/build/Release-iphoneos/include -I/Users/AlbertoMDF/Library/Application\ Support/Titanium/mobilesdk/osx/3.3.0.GA/iphone/include -I/Users/AlbertoMDF/Library/Application\ Support/Titanium/mobilesdk/osx/3.3.0.GA/iphone/include/TiCore -I/Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/build/PDFGenerator.build/Release-iphoneos/PDFGenerator.build/DerivedSources/armv7s -I/Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/build/PDFGenerator.build/Release-iphoneos/PDFGenerator.build/DerivedSources -F/Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/build/Release-iphoneos -DTI_POST_1_2 -include /var/folders/cv/ttm51rsn4b18qg7jrcdq_nf80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/ComAlbertomdfPdfgenerator_Prefix-aphvbaqfnoeuweeyhwpzzqxkgusx/ComAlbertomdfPdfgenerator_Prefix.pch -MMD -MT dependencies -MF /Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/build/PDFGenerator.build/Release-iphoneos/PDFGenerator.build/Objects-normal/armv7s/ComAlbertomdfPdfgeneratorModuleAssets.d --serialize-diagnostics /Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/build/PDFGenerator.build/Release-iphoneos/PDFGenerator.build/Objects-normal/armv7s/ComAlbertomdfPdfgeneratorModuleAssets.dia -c /Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/Classes/ComAlbertomdfPdfgeneratorModuleAssets.m -o /Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/build/PDFGenerator.build/Release-iphoneos/PDFGenerator.build/Objects-normal/armv7s/ComAlbertomdfPdfgeneratorModuleAssets.o36"722DA9D9-275C-4C52-9F36-7A3206D520B9-
+bBAD9FE42-F309-43A7-8AF9-082AB12D1B4F
+
+CCreateUniversalBinary /Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/build/Release-iphoneos/libComAlbertomdfPdfgenerator.a normal armv7\ armv7s\ arm64
+s435784630.097846
+e435784630.104837
+r1
+xCreateUniversalBinary
+x/Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/build/Release-iphoneos/libComAlbertomdfPdfgenerator.a
+xnormal
+xarmv7 armv7s arm64
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection139"Create universal binary /Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/build/Release-iphoneos/libComAlbertomdfPdfgenerator.a103"CreateUniversalBinary build/Release-iphoneos/libComAlbertomdfPdfgenerator.a normal armv7\ armv7s\ arm64bd1919b68bf9b941^4dd81ab68bf9b941^---0#0#1#-19%DVTDocumentLocation2@122"file:///Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/build/Release-iphoneos/libComAlbertomdfPdfgenerator.a00344c87ddffdf42^1270"CreateUniversalBinary build/Release-iphoneos/libComAlbertomdfPdfgenerator.a normal armv7\ armv7s\ arm64    cd /Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/AlbertoMDF/Desktop/dev/Android/adt-bundle-mac/sdk/platform-tools/"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static /Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/build/PDFGenerator.build/Release-iphoneos/PDFGenerator.build/Objects-normal/armv7/libComAlbertomdfPdfgenerator.a /Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/build/PDFGenerator.build/Release-iphoneos/PDFGenerator.build/Objects-normal/armv7s/libComAlbertomdfPdfgenerator.a /Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/build/PDFGenerator.build/Release-iphoneos/PDFGenerator.build/Objects-normal/arm64/libComAlbertomdfPdfgenerator.a -o /Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/build/Release-iphoneos/libComAlbertomdfPdfgenerator.a36"A406F07E-00EB-4F31-A6A0-62D134F3C21F-
+bBAD9FE42-F309-43A7-8AF9-082AB12D1B4F
+
+CLibtool /Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/build/PDFGenerator.build/Release-iphoneos/PDFGenerator.build/Objects-normal/arm64/libComAlbertomdfPdfgenerator.a normal arm64
+s435784630.085292
+e435784630.097454
+r1
+xLibtool
+x/Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/build/PDFGenerator.build/Release-iphoneos/PDFGenerator.build/Objects-normal/arm64/libComAlbertomdfPdfgenerator.a
+xnormal
+xarm64
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC 
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection133"Libtool build/PDFGenerator.build/Release-iphoneos/PDFGenerator.build/Objects-normal/arm64/libComAlbertomdfPdfgenerator.a normal arm64133"Libtool build/PDFGenerator.build/Release-iphoneos/PDFGenerator.build/Objects-normal/arm64/libComAlbertomdfPdfgenerator.a normal arm64f2e915b68bf9b941^b9ff18b68bf9b941^-159"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC -0#0#1#--1314"Libtool build/PDFGenerator.build/Release-iphoneos/PDFGenerator.build/Objects-normal/arm64/libComAlbertomdfPdfgenerator.a normal arm64    cd /Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone    export IPHONEOS_DEPLOYMENT_TARGET=4.0    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/AlbertoMDF/Desktop/dev/Android/adt-bundle-mac/sdk/platform-tools/"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only arm64 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -L/Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/build/Release-iphoneos -filelist /Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/build/PDFGenerator.build/Release-iphoneos/PDFGenerator.build/Objects-normal/arm64/ComAlbertomdfPdfgenerator.LinkFileList -ObjC -framework Foundation -o /Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/build/PDFGenerator.build/Release-iphoneos/PDFGenerator.build/Objects-normal/arm64/libComAlbertomdfPdfgenerator.a36"D93F50BC-FB0B-459C-87AA-258AA4F4A716-
+bBAD9FE42-F309-43A7-8AF9-082AB12D1B4F
+
+CLibtool /Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/build/PDFGenerator.build/Release-iphoneos/PDFGenerator.build/Objects-normal/armv7/libComAlbertomdfPdfgenerator.a normal armv7
+s435784630.084909
+e435784630.097432
+r1
+xLibtool
+x/Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/build/PDFGenerator.build/Release-iphoneos/PDFGenerator.build/Objects-normal/armv7/libComAlbertomdfPdfgenerator.a
+xnormal
+xarmv7
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC 
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection133"Libtool build/PDFGenerator.build/Release-iphoneos/PDFGenerator.build/Objects-normal/armv7/libComAlbertomdfPdfgenerator.a normal armv7133"Libtool build/PDFGenerator.build/Release-iphoneos/PDFGenerator.build/Objects-normal/armv7/libComAlbertomdfPdfgenerator.a normal armv770cd15b68bf9b941^16fa18b68bf9b941^-159"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC -0#0#1#--1314"Libtool build/PDFGenerator.build/Release-iphoneos/PDFGenerator.build/Objects-normal/armv7/libComAlbertomdfPdfgenerator.a normal armv7    cd /Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone    export IPHONEOS_DEPLOYMENT_TARGET=4.0    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/AlbertoMDF/Desktop/dev/Android/adt-bundle-mac/sdk/platform-tools/"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only armv7 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -L/Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/build/Release-iphoneos -filelist /Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/build/PDFGenerator.build/Release-iphoneos/PDFGenerator.build/Objects-normal/armv7/ComAlbertomdfPdfgenerator.LinkFileList -ObjC -framework Foundation -o /Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/build/PDFGenerator.build/Release-iphoneos/PDFGenerator.build/Objects-normal/armv7/libComAlbertomdfPdfgenerator.a36"1382B5A4-C77A-4D92-9448-096DF01338E2-
+bBAD9FE42-F309-43A7-8AF9-082AB12D1B4F
+
+CLibtool /Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/build/PDFGenerator.build/Release-iphoneos/PDFGenerator.build/Objects-normal/armv7s/libComAlbertomdfPdfgenerator.a normal armv7s
+s435784630.085093
+e435784630.097398
+r1
+xLibtool
+x/Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/build/PDFGenerator.build/Release-iphoneos/PDFGenerator.build/Objects-normal/armv7s/libComAlbertomdfPdfgenerator.a
+xnormal
+xarmv7s
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC 
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection135"Libtool build/PDFGenerator.build/Release-iphoneos/PDFGenerator.build/Objects-normal/armv7s/libComAlbertomdfPdfgenerator.a normal armv7s135"Libtool build/PDFGenerator.build/Release-iphoneos/PDFGenerator.build/Objects-normal/armv7s/libComAlbertomdfPdfgenerator.a normal armv7s8cd615b68bf9b941^c7f418b68bf9b941^-159"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC -0#0#1#--1319"Libtool build/PDFGenerator.build/Release-iphoneos/PDFGenerator.build/Objects-normal/armv7s/libComAlbertomdfPdfgenerator.a normal armv7s    cd /Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone    export IPHONEOS_DEPLOYMENT_TARGET=4.0    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/AlbertoMDF/Desktop/dev/Android/adt-bundle-mac/sdk/platform-tools/"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only armv7s -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -L/Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/build/Release-iphoneos -filelist /Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/build/PDFGenerator.build/Release-iphoneos/PDFGenerator.build/Objects-normal/armv7s/ComAlbertomdfPdfgenerator.LinkFileList -ObjC -framework Foundation -o /Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/build/PDFGenerator.build/Release-iphoneos/PDFGenerator.build/Objects-normal/armv7s/libComAlbertomdfPdfgenerator.a36"E3E1A1BA-4CE2-4E5A-91DD-E58739CC0B7E-
+bBAD9FE42-F309-43A7-8AF9-082AB12D1B4F
+
+CProcessPCH /var/folders/cv/ttm51rsn4b18qg7jrcdq_nf80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/ComAlbertomdfPdfgenerator_Prefix-aphvbaqfnoeuweeyhwpzzqxkgusx/ComAlbertomdfPdfgenerator_Prefix.pch.pch ComAlbertomdfPdfgenerator_Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s435784629.239911
+e435784629.708155
+r1
+xProcessPCH
+x/var/folders/cv/ttm51rsn4b18qg7jrcdq_nf80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/ComAlbertomdfPdfgenerator_Prefix-aphvbaqfnoeuweeyhwpzzqxkgusx/ComAlbertomdfPdfgenerator_Prefix.pch.pch
+xComAlbertomdfPdfgenerator_Prefix.pch
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/ComAlbertomdfPdfgenerator_Prefix.pch
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Precompile ComAlbertomdfPdfgenerator_Prefix.pch338"ProcessPCH /var/folders/cv/ttm51rsn4b18qg7jrcdq_nf80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/ComAlbertomdfPdfgenerator_Prefix-aphvbaqfnoeuweeyhwpzzqxkgusx/ComAlbertomdfPdfgenerator_Prefix.pch.pch ComAlbertomdfPdfgenerator_Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler994b3eb58bf9b941^4d4eb5b58bf9b941^---0#0#1#-19%DVTDocumentLocation2@105"file:///Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/ComAlbertomdfPdfgenerator_Prefix.pch0000000000000000^4128"ProcessPCH /var/folders/cv/ttm51rsn4b18qg7jrcdq_nf80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/ComAlbertomdfPdfgenerator_Prefix-aphvbaqfnoeuweeyhwpzzqxkgusx/ComAlbertomdfPdfgenerator_Prefix.pch.pch ComAlbertomdfPdfgenerator_Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/AlbertoMDF/Desktop/dev/Android/adt-bundle-mac/sdk/platform-tools/"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wno-parentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wno-unused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DTI_VERSION= -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=4.0 -iquote /Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/build/PDFGenerator.build/Release-iphoneos/PDFGenerator.build/ComAlbertomdfPdfgenerator-generated-files.hmap -I/Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/build/PDFGenerator.build/Release-iphoneos/PDFGenerator.build/ComAlbertomdfPdfgenerator-own-target-headers.hmap -I/Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/build/PDFGenerator.build/Release-iphoneos/PDFGenerator.build/ComAlbertomdfPdfgenerator-all-target-headers.hmap -iquote /Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/build/PDFGenerator.build/Release-iphoneos/PDFGenerator.build/ComAlbertomdfPdfgenerator-project-headers.hmap -I/Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/build/Release-iphoneos/include -I/Users/AlbertoMDF/Library/Application\ Support/Titanium/mobilesdk/osx/3.3.0.GA/iphone/include -I/Users/AlbertoMDF/Library/Application\ Support/Titanium/mobilesdk/osx/3.3.0.GA/iphone/include/TiCore -I/Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/build/PDFGenerator.build/Release-iphoneos/PDFGenerator.build/DerivedSources/armv7s -I/Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/build/PDFGenerator.build/Release-iphoneos/PDFGenerator.build/DerivedSources -F/Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/build/Release-iphoneos -DTI_POST_1_2 --serialize-diagnostics /var/folders/cv/ttm51rsn4b18qg7jrcdq_nf80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/ComAlbertomdfPdfgenerator_Prefix-aphvbaqfnoeuweeyhwpzzqxkgusx/ComAlbertomdfPdfgenerator_Prefix.pch.dia -MMD -MT dependencies -MF /var/folders/cv/ttm51rsn4b18qg7jrcdq_nf80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/ComAlbertomdfPdfgenerator_Prefix-aphvbaqfnoeuweeyhwpzzqxkgusx/ComAlbertomdfPdfgenerator_Prefix.pch.d -c /Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/ComAlbertomdfPdfgenerator_Prefix.pch -o /var/folders/cv/ttm51rsn4b18qg7jrcdq_nf80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/ComAlbertomdfPdfgenerator_Prefix-aphvbaqfnoeuweeyhwpzzqxkgusx/ComAlbertomdfPdfgenerator_Prefix.pch.pch36"A80BD839-D3A9-494A-997D-2D373579A5AE-
+bBAD9FE42-F309-43A7-8AF9-082AB12D1B4F
+
+CProcessPCH /var/folders/cv/ttm51rsn4b18qg7jrcdq_nf80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/ComAlbertomdfPdfgenerator_Prefix-cxemvaikfpraixfnvfoapxymyyxr/ComAlbertomdfPdfgenerator_Prefix.pch.pch ComAlbertomdfPdfgenerator_Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s435784629.239578
+e435784629.708159
+r1
+xProcessPCH
+x/var/folders/cv/ttm51rsn4b18qg7jrcdq_nf80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/ComAlbertomdfPdfgenerator_Prefix-cxemvaikfpraixfnvfoapxymyyxr/ComAlbertomdfPdfgenerator_Prefix.pch.pch
+xComAlbertomdfPdfgenerator_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/ComAlbertomdfPdfgenerator_Prefix.pch
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Precompile ComAlbertomdfPdfgenerator_Prefix.pch337"ProcessPCH /var/folders/cv/ttm51rsn4b18qg7jrcdq_nf80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/ComAlbertomdfPdfgenerator_Prefix-cxemvaikfpraixfnvfoapxymyyxr/ComAlbertomdfPdfgenerator_Prefix.pch.pch ComAlbertomdfPdfgenerator_Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compilerf14a3eb58bf9b941^444cb5b58bf9b941^---0#0#1#-19%DVTDocumentLocation2@105"file:///Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/ComAlbertomdfPdfgenerator_Prefix.pch0000000000000000^4125"ProcessPCH /var/folders/cv/ttm51rsn4b18qg7jrcdq_nf80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/ComAlbertomdfPdfgenerator_Prefix-cxemvaikfpraixfnvfoapxymyyxr/ComAlbertomdfPdfgenerator_Prefix.pch.pch ComAlbertomdfPdfgenerator_Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/AlbertoMDF/Desktop/dev/Android/adt-bundle-mac/sdk/platform-tools/"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wno-parentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wno-unused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DTI_VERSION= -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=4.0 -iquote /Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/build/PDFGenerator.build/Release-iphoneos/PDFGenerator.build/ComAlbertomdfPdfgenerator-generated-files.hmap -I/Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/build/PDFGenerator.build/Release-iphoneos/PDFGenerator.build/ComAlbertomdfPdfgenerator-own-target-headers.hmap -I/Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/build/PDFGenerator.build/Release-iphoneos/PDFGenerator.build/ComAlbertomdfPdfgenerator-all-target-headers.hmap -iquote /Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/build/PDFGenerator.build/Release-iphoneos/PDFGenerator.build/ComAlbertomdfPdfgenerator-project-headers.hmap -I/Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/build/Release-iphoneos/include -I/Users/AlbertoMDF/Library/Application\ Support/Titanium/mobilesdk/osx/3.3.0.GA/iphone/include -I/Users/AlbertoMDF/Library/Application\ Support/Titanium/mobilesdk/osx/3.3.0.GA/iphone/include/TiCore -I/Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/build/PDFGenerator.build/Release-iphoneos/PDFGenerator.build/DerivedSources/armv7 -I/Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/build/PDFGenerator.build/Release-iphoneos/PDFGenerator.build/DerivedSources -F/Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/build/Release-iphoneos -DTI_POST_1_2 --serialize-diagnostics /var/folders/cv/ttm51rsn4b18qg7jrcdq_nf80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/ComAlbertomdfPdfgenerator_Prefix-cxemvaikfpraixfnvfoapxymyyxr/ComAlbertomdfPdfgenerator_Prefix.pch.dia -MMD -MT dependencies -MF /var/folders/cv/ttm51rsn4b18qg7jrcdq_nf80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/ComAlbertomdfPdfgenerator_Prefix-cxemvaikfpraixfnvfoapxymyyxr/ComAlbertomdfPdfgenerator_Prefix.pch.d -c /Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/ComAlbertomdfPdfgenerator_Prefix.pch -o /var/folders/cv/ttm51rsn4b18qg7jrcdq_nf80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/ComAlbertomdfPdfgenerator_Prefix-cxemvaikfpraixfnvfoapxymyyxr/ComAlbertomdfPdfgenerator_Prefix.pch.pch36"BC11BACF-F559-4451-AE8D-832BA007389A-
+bBAD9FE42-F309-43A7-8AF9-082AB12D1B4F
+
+CProcessPCH /var/folders/cv/ttm51rsn4b18qg7jrcdq_nf80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/ComAlbertomdfPdfgenerator_Prefix-dbvanniyvcygixdtucebectywkhb/ComAlbertomdfPdfgenerator_Prefix.pch.pch ComAlbertomdfPdfgenerator_Prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s435784629.240241
+e435784629.708129
+r1
+xProcessPCH
+x/var/folders/cv/ttm51rsn4b18qg7jrcdq_nf80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/ComAlbertomdfPdfgenerator_Prefix-dbvanniyvcygixdtucebectywkhb/ComAlbertomdfPdfgenerator_Prefix.pch.pch
+xComAlbertomdfPdfgenerator_Prefix.pch
+xnormal
+xarm64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/ComAlbertomdfPdfgenerator_Prefix.pch
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Precompile ComAlbertomdfPdfgenerator_Prefix.pch337"ProcessPCH /var/folders/cv/ttm51rsn4b18qg7jrcdq_nf80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/ComAlbertomdfPdfgenerator_Prefix-dbvanniyvcygixdtucebectywkhb/ComAlbertomdfPdfgenerator_Prefix.pch.pch ComAlbertomdfPdfgenerator_Prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compilercb4b3eb58bf9b941^5a47b5b58bf9b941^---0#0#1#-19%DVTDocumentLocation2@105"file:///Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/ComAlbertomdfPdfgenerator_Prefix.pch0000000000000000^4122"ProcessPCH /var/folders/cv/ttm51rsn4b18qg7jrcdq_nf80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/ComAlbertomdfPdfgenerator_Prefix-dbvanniyvcygixdtucebectywkhb/ComAlbertomdfPdfgenerator_Prefix.pch.pch ComAlbertomdfPdfgenerator_Prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/AlbertoMDF/Desktop/dev/Android/adt-bundle-mac/sdk/platform-tools/"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wno-parentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wno-unused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DTI_VERSION= -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=4.0 -iquote /Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/build/PDFGenerator.build/Release-iphoneos/PDFGenerator.build/ComAlbertomdfPdfgenerator-generated-files.hmap -I/Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/build/PDFGenerator.build/Release-iphoneos/PDFGenerator.build/ComAlbertomdfPdfgenerator-own-target-headers.hmap -I/Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/build/PDFGenerator.build/Release-iphoneos/PDFGenerator.build/ComAlbertomdfPdfgenerator-all-target-headers.hmap -iquote /Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/build/PDFGenerator.build/Release-iphoneos/PDFGenerator.build/ComAlbertomdfPdfgenerator-project-headers.hmap -I/Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/build/Release-iphoneos/include -I/Users/AlbertoMDF/Library/Application\ Support/Titanium/mobilesdk/osx/3.3.0.GA/iphone/include -I/Users/AlbertoMDF/Library/Application\ Support/Titanium/mobilesdk/osx/3.3.0.GA/iphone/include/TiCore -I/Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/build/PDFGenerator.build/Release-iphoneos/PDFGenerator.build/DerivedSources/arm64 -I/Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/build/PDFGenerator.build/Release-iphoneos/PDFGenerator.build/DerivedSources -F/Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/build/Release-iphoneos -DTI_POST_1_2 --serialize-diagnostics /var/folders/cv/ttm51rsn4b18qg7jrcdq_nf80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/ComAlbertomdfPdfgenerator_Prefix-dbvanniyvcygixdtucebectywkhb/ComAlbertomdfPdfgenerator_Prefix.pch.dia -MMD -MT dependencies -MF /var/folders/cv/ttm51rsn4b18qg7jrcdq_nf80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/ComAlbertomdfPdfgenerator_Prefix-dbvanniyvcygixdtucebectywkhb/ComAlbertomdfPdfgenerator_Prefix.pch.d -c /Users/AlbertoMDF/Desktop/dev/Titanium/ws/PDFGenerator/iphone/ComAlbertomdfPdfgenerator_Prefix.pch -o /var/folders/cv/ttm51rsn4b18qg7jrcdq_nf80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/ComAlbertomdfPdfgenerator_Prefix-dbvanniyvcygixdtucebectywkhb/ComAlbertomdfPdfgenerator_Prefix.pch.pch36"DB0C4EFF-F17B-4443-9E13-43C87D419C16-
+bBAD9FE42-F309-43A7-8AF9-082AB12D1B4F
+
