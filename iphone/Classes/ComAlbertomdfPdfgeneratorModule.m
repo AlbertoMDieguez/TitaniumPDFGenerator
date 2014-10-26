@@ -87,8 +87,10 @@
 }
 
 #pragma Public APIs
--(id)generatePDFbyJSONTest:(NSString *)stringValue
+-(id)generatePDFbyJSON:(id)stringValue
 {
+    ENSURE_SINGLE_ARG(stringValue,NSString);
+    
     //So what we first do is setup file name for the file.
     NSArray* documentDirectories = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask,YES);
     NSString* documentDirectory = [documentDirectories objectAtIndex:0];
@@ -98,127 +100,95 @@
     UIGraphicsBeginPDFContextToFile(pdfFileName, CGRectZero, nil);
     CGContextRef context = UIGraphicsGetCurrentContext();
     
-    //Before we can start drawing anything, we need to mark the beginning of a new page. When you are finished drawing on a page and need to start a new page, just call the same line and reset your offset back to 0 again.
-    UIGraphicsBeginPDFPageWithInfo(CGRectMake(0, 0, 612, 792), nil);
+    //Before we can start drawing anything, we need to mark the beginning of a new page.
+    //When you are finished drawing on a page and need to start a new page, just call the
+    //same line and reset your offset back to 0 again.
+    CGFloat topMargin = 40;
+    CGFloat bottomMargin = 40;
+    CGFloat pageWidth = 612;
+    CGFloat pageHeight = 792;
+    UIGraphicsBeginPDFPageWithInfo(CGRectMake(0, 0, pageWidth, pageHeight), nil);
     
-    //If you are going to generate data that could possibly go over multiple pages, I would recommend to setup a pageOffset before creating a page. You can use this to calculate if you have reached the end of a page, so that you can create a new PDF page context.
-    CGFloat pageOffset = 20;
+    //If you are going to generate data that could possibly go over multiple pages,
+    //I would recommend to setup a pageOffset before creating a page. You can use this
+    //to calculate if you have reached the end of a page, so that you can create a new PDF page context.
+    CGFloat pageOffset = 30;
+    CGFloat vSize = 17;
     
-    NSData *data = [stringValue dataUsingEncoding:NSUTF8StringEncoding];
-    NSDictionary *jsonResponse = [NSJSONSerialization JSONObjectWithData:data
-                                                                 options:kNilOptions
-                                                             error: nil];
-    int i=0;
-    for (id objeto in jsonResponse) {
-        // Hacemos lo que queramos con el objeto
-        NSString *myString = [NSString stringWithFormat:@">%@", objeto];
-        [myString drawInRect:CGRectMake(20, i*pageOffset, 200, 34) withFont:[UIFont fontWithName:@"HelveticaNeue-Bold" size:13] lineBreakMode:UILineBreakModeWordWrap alignment:UITextAlignmentLeft];
-        i = i+1;
+    
+    NSError *errorResult = nil;
+    NSData *dataAux = [stringValue dataUsingEncoding:NSUTF8StringEncoding];
+    id json = [NSJSONSerialization JSONObjectWithData:dataAux options:0 error:errorResult];
+    
+
+    NSError *e = nil;
+    NSArray *jsonArray = [json objectForKey:@"pdfitems"];
+    if (!jsonArray) {
+        NSLog(@"Error parsing JSON: %@", errorResult);
+    } else {
+        int i=0;
+        for(NSDictionary *item in jsonArray) {
+            
+            pageOffset = pageOffset + [item[@"y"] floatValue];
+            NSLog(@"pageOffset: %f", pageOffset);
+           
+            // NSLog(@"Item: %@", item);
+            NSLog(@"TEXT >: %@", item[@"text"]);
+            // Hacemos lo que queramos con el objeto
+            NSString *myString = [NSString stringWithFormat:@"%@", item[@"text"]];
+            
+            //Get vertical Size of text (Aprox)
+            float lines = myString.length/100.0f; //100 caracteres count aprox
+           int intValue = (int)lines;
+           if((lines-intValue)>0){
+                 intValue++;
+            }
+            if(intValue>1){
+                vSize = 17 * intValue;
+            }else{
+                vSize = 17;
+            }
+            
+            //Check if needs to create new page
+            if((pageOffset+vSize) > (pageHeight-bottomMargin)){
+                //New Page and reset page offset
+                UIGraphicsBeginPDFPageWithInfo(CGRectMake(0, 0, pageWidth, pageHeight), nil);
+                pageOffset=30;
+            }
+            
+            //Set Color
+            unsigned rgbValue = 0;
+            NSScanner *scanner = [NSScanner scannerWithString:item[@"color"]];
+            [scanner setScanLocation:1]; // bypass '#' character
+            [scanner scanHexInt:&rgbValue];
+            [[UIColor colorWithRed:((rgbValue & 0xFF0000) >> 16)/255.0 green:((rgbValue & 0xFF00) >> 8)/255.0 blue:(rgbValue & 0xFF)/255.0 alpha:1.0] set];
+            //Set font
+            NSString *fontName = nil!=item[@"font"]?item[@"font"]:@"HelveticaNeue";
+            
+            //Draw Rect with text [mystring drawInRect:CGRectMake(x,y,w,h) withFont:UIFont]
+            [myString drawInRect:CGRectMake([item[@"x"] intValue],pageOffset==30?topMargin:pageOffset, (pageWidth-2*[item[@"x"] intValue]), vSize) withFont:[UIFont fontWithName:fontName size:[item[@"size"]intValue]] lineBreakMode:UILineBreakModeWordWrap alignment:UITextAlignmentLeft];
+            i = i+1;
+            
+            pageOffset = pageOffset+vSize;
+            
+            //Cehck if necessary create a new page
+           if(pageOffset>(pageHeight-bottomMargin)){
+               UIGraphicsBeginPDFPageWithInfo(CGRectMake(0, 0, pageWidth, pageHeight), nil);
+               pageOffset=30;
+           }
+            
+        }
     }
-    for(int n = 1; n <= 10; n = n + 1){
-        
-        NSString *myString = [NSString stringWithFormat:@"%@", stringValue];
-        [myString drawInRect:CGRectMake(20, n*pageOffset, 200, 34) withFont:[UIFont fontWithName:@"HelveticaNeue-Bold" size:13] lineBreakMode:UILineBreakModeWordWrap alignment:UITextAlignmentLeft];
-    }
-   
+    
     //Finishing the PDF and exporting the data
     //Once you have finished creating your PDF you must first remove the PDF rendering context.
     UIGraphicsEndPDFContext();
     
+    NSString *myString = [[NSURL fileURLWithPath:pdfFileName] absoluteString];
+
     // example method
 	return [NSURL fileURLWithPath:pdfFileName];
-
-}
-
--(id)generatePDFbyJSON:(NSArray *)arrayValues
-{
-    //Create a PDF filename for a file that will reside in the Documents folder.
-
-    //NSString *fileName = [NSString stringWithFormat:@"%@.pdf",name];
-    NSString *fileName = @"PlanDeParto.pdf";
     
-    NSArray *arrayPaths =
-    NSSearchPathForDirectoriesInDomains(
-                                        NSDocumentDirectory,
-                                        NSUserDomainMask,
-                                        YES);
-    NSString *path = [arrayPaths objectAtIndex:0];
-    NSString* pdfFileName = [path stringByAppendingPathComponent:fileName];
-
-    for(int n = 0; n <= 10; n = n + 1){
-        //>>Creates a “Hello world” string that we will draw onto the PDF.
-        //It also converts the string to its CoreGraphics counterpart, CFStringRef.
-        NSString* textToDraw = @"España Camión Número ";
-        CFStringRef stringRef = (__bridge CFStringRef)textToDraw;
-    
-        //Prepare the text using a Core Text Framesetter.
-        CFAttributedStringRef currentText = CFAttributedStringCreate(NULL, stringRef, NULL);
-        CTFramesetterRef framesetter = CTFramesetterCreateWithAttributedString(currentText);
-    
-        //>>Now we create a CGRect that defines the frame where the text will be drawn.
-        CGRect frameRect = CGRectMake(0,n*10, 300, 50);
-        CGMutablePathRef framePath = CGPathCreateMutable();
-        CGPathAddRect(framePath, NULL, frameRect);
-    
-        // Get the frame that will do the rendering.
-        CFRange currentRange = CFRangeMake(0, n*10);
-        CTFrameRef frameRef = CTFramesetterCreateFrame(framesetter, currentRange, framePath, NULL);
-        CGPathRelease(framePath);
-    
-        //>>Next we create a PDF context and mark the beginning of a PDF page.
-        //>>Each page of the PDF has to start with a call to UIGraphicsBeginPDFPageWithInfo.
-        // Create the PDF context using the default page size of 612 x 792.
-        UIGraphicsBeginPDFContextToFile(pdfFileName, CGRectZero, nil);
-    
-        // Mark the beginning of a new page.
-        UIGraphicsBeginPDFPageWithInfo(CGRectMake(0, 0, 612, 792), nil);
-    
-        // Get the graphics context.
-        CGContextRef currentContext = UIGraphicsGetCurrentContext();
-    
-        //>>The coordinates of Core Graphics drawings start from the bottom-left corner,
-        //>>while UIKit global coordinates start from the top-left. We need to flip the context before we begin drawing.
-        // Put the text matrix into a known state. This ensures
-        // that no old scaling factors are left in place.
-        CGContextSetTextMatrix(currentContext, CGAffineTransformIdentity);
-    
-        // Core Text draws from the bottom-left corner up, so flip
-        // the current transform prior to drawing.
-        CGContextTranslateCTM(currentContext, 0, 100);
-        CGContextScaleCTM(currentContext, 1.0, -1.0);
-    
-        //>>We draw the actual frame with the text, release all the Core Graphics objects, and close the PDF context (hence writing the PDF to disk).
-    
-        // Draw the frame.
-        CTFrameDraw(frameRef, currentContext);
-    
-        CFRelease(frameRef);
-        CFRelease(stringRef);
-        CFRelease(framesetter);
-    }
-    
-    // Close the PDF context and write the contents out.
-    UIGraphicsEndPDFContext();
-    
-    
-	// example method
-	return [NSURL fileURLWithPath:pdfFileName];
-}
--(void) addText:(NSString *) textValue
-{
-    
-}
-
-
--(id)exampleProp
-{
-	// example property getter
-	return @"hello world";
-}
-
--(void)setExampleProp:(id)value
-{
-	// example property setter
 }
 
 @end
